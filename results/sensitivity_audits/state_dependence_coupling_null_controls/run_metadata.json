@@ -1,0 +1,7 @@
+{
+  "trial_table": "results/sensitivity_audits/state_dependence_sensitivity_controls/crossfit_passive_baseline_trial_table.tsv",
+  "outdir": "results/sensitivity_audits/state_dependence_coupling_null_controls",
+  "use_crossfit_baseline": true,
+  "n_sim": 2000,
+  "seed": 140
+}

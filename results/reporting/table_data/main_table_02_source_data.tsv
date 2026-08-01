@@ -1,0 +1,10 @@
+Analysis	Estimate	95% CI	p
+Up-regulation versus passive	β = 0.340	[0.189, 0.491]	< 0.001
+Down-regulation versus passive	β = -0.289	[-0.426, -0.151]	< 0.001
+Up-regulation success	M = 0.333	[0.196, 0.476]	< 0.001
+Down-regulation success	M = 0.295	[0.166, 0.427]	< 0.001
+Up-minus-down success	M = 0.038	[-0.134, 0.206]	0.667
+Down versus nearest passive	M = -0.683	—	< 0.001
+Down versus following passive	M = -0.248	—	0.004
+Up versus nearest passive	M = 0.117	—	0.198
+Up versus following passive	M = 0.369	—	< 0.001

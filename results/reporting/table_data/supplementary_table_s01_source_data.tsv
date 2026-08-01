@@ -1,0 +1,5 @@
+Condition	Runs acquired	Runs retained	Runs excluded	Participants retained	Mean FD, mm
+Passive	231	222	9	33	0.156
+Up-regulation	33	33	0	33	0.176
+Down-regulation	33	33	0	33	0.157
+Total	297	288	9	33	—

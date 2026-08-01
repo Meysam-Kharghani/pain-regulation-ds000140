@@ -1,0 +1,7 @@
+analysis_set	condition	n_runs	n_subjects	mean_fd
+main	down	33	33	0.15656711326616315
+main	passive	222	33	0.15603743158395267
+main	up	33	33	0.1760159886491802
+fd_bad_run_exclude	down	17	17	0.14513953822213632
+fd_bad_run_exclude	passive	126	33	0.15147739194242751
+fd_bad_run_exclude	up	20	20	0.1595981498102425

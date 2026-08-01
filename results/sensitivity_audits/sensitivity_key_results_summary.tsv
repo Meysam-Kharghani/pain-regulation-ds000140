@@ -1,0 +1,19 @@
+domain	finding	estimate	ci_low	ci_high	p	q	n	interpretation
+behavior	Up-regulation versus passive	0.340	0.189	0.491	<0.001		3201	Instruction-consistent increase
+behavior	Down-regulation versus passive	-0.289	-0.426	-0.151	<0.001		3201	Instruction-consistent decrease
+behavior	Up-minus-down regulation success	0.038	-0.134	0.206	0.667		33	No reliable mean-success difference
+regional_imaging	Right S2/operculum down-minus-passive	-0.0388	-0.0528	-0.0232	<0.001	0.00064	33	ROI-family FDR significant
+regional_imaging	Left anterior insula down-minus-passive	-0.0284	-0.0414	-0.0146	<0.001	0.00508	33	ROI-family FDR significant
+regional_imaging	Left whole insula down-minus-passive	-0.0225	-0.0340	-0.0108	<0.001	0.00840	33	ROI-family FDR significant
+regional_imaging	Left S2/operculum down-minus-passive	-0.0276	-0.0430	-0.0120	0.0017	0.0134	33	ROI-family FDR significant
+regional_imaging	Left posterior insula down-minus-passive	-0.0256	-0.0411	-0.0102	0.0030	0.0190	33	ROI-family FDR significant
+regional_imaging	Right posterior insula down-minus-passive	-0.0382	-0.0659	-0.0128	0.0094	0.0448	33	ROI-family FDR significant
+regional_imaging	Left dlPFC/IFJ down-minus-passive	0.0180	0.0052	0.0301	0.0098	0.0448	33	ROI-family FDR significant
+coupling	Selected forward composite versus up-regulation success	-0.545718907902466	-0.764	-0.270	0.0010205427250187	0.0127	33	Exploratory and post-selection
+coupling	Reverse-direction composite versus up-regulation success	0.2648895297114575			0.1362874064569391		33	Matched control
+coupling	Synchronous composite versus up-regulation success	0.06354054833733268			0.7253680392715559		33	Matched control
+coupling	Time-reversed composite versus up-regulation success	-0.01587383611744056			0.9301329632109335		33	Matched control
+coupling_null	Shared-source permutation null	-0.545718907902466	-0.34082385867476744	0.33616468058001536	0.0013997200559888023		5000	Conditional on selected pathway
+coupling_null	Nonzero circular-shift null	-0.545718907902466	-0.27144304690845006	0.3886054970926244	0.0013997200559888023		5000	Conditional on selected pathway
+dcm	Run-separated DCM family group-average Up-minus-passive	0 of 6 models retained					1728	No stable family-wide effect
+dcm	Run-separated DCM family group-average Down-minus-passive	0 of 6 models retained					1728	No stable family-wide effect

@@ -1,0 +1,30 @@
+item	source_file
+Main Table 1	table_data/main_table_01_source_data.tsv
+Main Table 2	table_data/main_table_02_source_data.tsv
+Main Table 3	table_data/main_table_03_source_data.tsv
+Main Table 4	table_data/main_table_04_source_data.tsv
+Supplementary Table S1	table_data/supplementary_table_s01_source_data.tsv
+Supplementary Table S2	table_data/supplementary_table_s02_source_data.tsv
+Supplementary Table S3	table_data/supplementary_table_s03_source_data.tsv
+Supplementary Table S4a	table_data/supplementary_table_s04a_source_data.tsv
+Supplementary Table S4b	table_data/supplementary_table_s04b_source_data.tsv
+Supplementary Table S5	table_data/supplementary_table_s05_source_data.tsv
+Supplementary Table S6	table_data/supplementary_table_s06_source_data.tsv
+Figure 1A	figure_data/figure_01_panel_a_source_data.tsv
+Figure 1B C	figure_data/figure_01_panels_b_c_source_data.tsv
+Figure 2A	figure_data/figure_02_panel_a_source_data.tsv
+Figure 2B	figure_data/figure_02_panel_b_source_data.tsv
+Figure 2B null summary	figure_data/figure_02_panel_b_null_summary.tsv
+Figure 3A	figure_data/figure_03_panel_a_source_data.tsv
+Figure 3B	figure_data/figure_03_panel_b_source_data.tsv
+Figure 4	figure_data/figure_04_source_data.tsv
+Figure 4B shared-source permutation null	figure_data/figure_04_panel_b_shared_source_null.tsv
+Figure 4B nonzero circular-shift null	figure_data/figure_04_panel_b_circular_shift_null.tsv
+Supplementary Figure 1A C	figure_data/supplementary_figure_01_panels_a_c_source_data.tsv
+Supplementary Figure 1B	figure_data/supplementary_figure_01_panel_b_source_data.tsv
+Supplementary Figure 2	figure_data/supplementary_figure_02_source_data.tsv
+Supplementary Figure 3	figure_data/supplementary_figure_03_source_data.tsv
+Supplementary Figure 4	figure_data/supplementary_figure_04_source_data.tsv
+Supplementary Figure 5A	figure_data/supplementary_figure_05_panel_a_source_data.tsv
+Supplementary Figure 5B	figure_data/supplementary_figure_05_panel_b_source_data.tsv
+Supplementary Figure 6	figure_data/supplementary_figure_06_source_data.tsv

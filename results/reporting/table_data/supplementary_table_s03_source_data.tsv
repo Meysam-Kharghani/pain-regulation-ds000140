@@ -1,0 +1,15 @@
+Outcome/model	Estimate	SE	z	p	FDR q	Diagnostic note
+Standardized success	-0.2655	0.0898	-2.958	0.003	0.013	Non-cross-fitted; q across all reported contrasts
+Raw success	-0.1915	0.1087	-1.761	0.078	0.183	Non-cross-fitted; q across all reported contrasts
+Observed rating (standardized)	-0.0079	0.0744	-0.107	0.915	0.961	Non-cross-fitted; q across all reported contrasts
+Observed rating (raw)	-0.0948	0.0893	-1.061	0.289	0.433	Non-cross-fitted; q across all reported contrasts
+Observed rating (bounded logit)	-1.3180	0.7997	-1.648	0.099	0.196	Non-cross-fitted; q across all reported contrasts
+Observed rating (fractional logit; unstable)	Not interpretable	—	—	—	—	Coefficients on the order of 10^14–10^15 with non-finite standard errors or p values; excluded from inference
+Available-room-normalized success	-0.0014	0.0033	-0.425	0.671	0.783	Non-cross-fitted; q across all reported contrasts
+Available-room-normalized success (clipped)	0.0027	0.0012	2.138	0.033	0.085	Non-cross-fitted; q across all reported contrasts
+Cross-fitted standardized success	-0.2634	0.1017	-2.590	0.010	0.022	Cross-fitted passive baseline; q across model terms
+Cross-fitted raw success	-0.1943	0.1143	-1.699	0.089	0.161	Cross-fitted passive baseline; q across model terms
+Cross-fitted observed rating (raw)	-0.0812	0.0933	-0.870	0.384	0.494	Cross-fitted passive baseline; q across model terms
+Cross-fitted observed rating (bounded logit)	-1.2189	0.8368	-1.457	0.145	0.218	Cross-fitted passive baseline; q across model terms
+Cross-fitted observed rating (fractional logit)	-1.4692	0.5124	-2.868	0.004	0.011	Cross-fitted passive baseline; q across model terms
+Cross-fitted available-room success	-0.0007	0.0037	-0.182	0.856	0.856	Cross-fitted passive baseline; q across model terms

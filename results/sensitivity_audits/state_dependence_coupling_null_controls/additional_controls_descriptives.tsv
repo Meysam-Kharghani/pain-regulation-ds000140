@@ -1,0 +1,7 @@
+quantity	value
+n_trials	660
+n_subjects	33
+n_rating_boundary_10	122
+n_expected_boundary_10_or_outside	49
+n_available_room_le_10	20
+baseline_source	crossfit

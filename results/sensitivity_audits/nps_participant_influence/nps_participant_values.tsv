@@ -1,0 +1,9 @@
+subject	up_minus_passive_FE	paired_up_minus_passive	measure	contrast	participant_id	down_minus_passive_FE	paired_down_minus_passive	regulation_mean_minus_passive_FE	paired_regulation_mean_minus_passive	up_minus_down_FE	paired_up_minus_down
+sub-06	55.101600646972656	-4.674057841300964	signature_dot	up_minus_passive	sub-06						
+sub-06			signature_dot	down_minus_passive	sub-06	-1.1697226762771606	-2.019669830799103				
+sub-06			signature_dot	regulation_mean_minus_passive	sub-06			56.14339828491211	-3.3468638360500336		
+sub-06			signature_dot	up_minus_down	sub-06					89.01013946533203	-2.6543880105018616
+sub-06	0.5909380483068007	-0.0501270123913041	signature_weighted_mean	up_minus_passive	sub-06						
+sub-06			signature_weighted_mean	down_minus_passive	sub-06	-0.0125447106302421	-0.0216599832676934				
+sub-06			signature_weighted_mean	regulation_mean_minus_passive	sub-06			0.6021108246992485	-0.0358934978294987		
+sub-06			signature_weighted_mean	up_minus_down	sub-06					0.9545907465040098	-0.0284670291236107

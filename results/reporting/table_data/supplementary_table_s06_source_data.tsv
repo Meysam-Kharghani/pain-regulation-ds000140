@@ -1,0 +1,17 @@
+Analysis	Estimate	95% CI / null interval	p or Pp	Correction or diagnostic
+Selected exploratory forward composite	r = −0.546	[−0.764, −0.270]	p = 0.0010	Archived screening q = 0.0127
+Spearman characterization	ρ = −0.549	—	p < 0.001	Post-selection
+Covariate-adjusted forward model	β = −0.464	[−0.681, −0.194]	p = 0.0023	Label-permutation p = 0.0007; all leave-one-out estimates negative
+Reverse-direction composite	r = 0.265	—	p = 0.136	Matched control
+Synchronous zero-lag composite	r = 0.064	—	p = 0.725	Matched control
+Time-reversed composite	r = −0.016	—	p = 0.930	Matched control
+Shared-source permutation null	Observed r = −0.546	[−0.341, 0.336]	p = 0.0014	5,000 iterations; conditional on selected pathway
+Nonzero circular-shift null	Observed r = −0.546	[−0.271, 0.389]	p = 0.0014	5,000 iterations; preserved within-run source ordering
+Forward - reverse	Δr = −0.811	[−1.178, −0.320]	p = 0.0022	FDR q = 0.0066
+Forward - zero-lag	Δr = −0.609	[−1.070, −0.011]	p = 0.0470	FDR q = 0.0470
+Forward - time-reversed	Δr = −0.530	[−0.954, −0.063]	p = 0.0258	FDR q = 0.0387
+DCM family: group-average Up - passive	0 of 6 variants retained	—	—	Reduced full-rank PEB designs
+DCM family: group-average Down - passive	0 of 6 variants retained	—	—	Reduced full-rank PEB designs
+Affective-right DCM: PAG -> hypothalamus, Up - down	Ep = 0.655	[0.356, 0.954]	Pp = 0.987	Model-specific exploratory effect
+Primary DCM: vmPFC/mOFC -> pgACC/rACC, DirectionMean	Ep = 0.264	[0.126, 0.401]	Pp = 0.960	Not a regulation-versus-passive contrast
+Sensory-right DCM: down success x Down - passive, thalamus -> posterior insula	Ep = −0.698	[−1.062, −0.333]	Pp = 0.976	Condition-matched exploratory individual-difference effect

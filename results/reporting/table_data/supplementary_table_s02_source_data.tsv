@@ -1,0 +1,6 @@
+Contrast	n	FDR-surviving voxels	FDR z threshold	Minimum z	Maximum z	Maximum |z|
+Passive heat response	33	Yes	2.611	-6.148	6.205	6.205
+Down – passive	33	No	—	-4.508	4.418	4.508
+Up – passive	33	No	—	-2.702	1.935	2.702
+Up – down	33	No	—	-2.476	1.232	2.476
+Mean regulation – passive	33	No	—	-2.316	1.604	2.316

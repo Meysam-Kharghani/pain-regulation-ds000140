@@ -1,0 +1,7 @@
+Estimation path / quantity	n	Estimate	95% CI	t	p	FDR q	Diagnostic note
+Contrast map: down - passive	33	−0.00484	[−0.00697, −0.00278]	−4.45	< 0.001	0.00024	Stable after excluding one influential participant; path-specific contrast-map units
+FWL-LSS: up - passive	33	-13.844	[-36.136, 8.448]	-1.27	0.215	0.307	No reliable regulation contrast
+FWL-LSS: down - passive	33	-3.345	[-23.264, 16.575]	-0.34	0.735	0.735	No reliable regulation contrast
+FWL-LSS: mean regulation - passive	33	-8.594	[-25.268, 8.080]	-1.05	0.302	0.377	No reliable regulation contrast
+FWL-LSS: up - down	33	-10.499	[-36.487, 15.488]	-0.82	0.417	0.463	No reliable regulation contrast
+FWL-LSS: passive temperature slope	33	54.317	[43.405, 65.229]	10.14	< 0.001	< 0.001	Strong thermal encoding

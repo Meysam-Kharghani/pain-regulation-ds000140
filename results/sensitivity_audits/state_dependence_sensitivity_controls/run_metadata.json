@@ -1,0 +1,11 @@
+{
+  "project": "<PROJECT_ROOT>",
+  "state_table": "<PROJECT_ROOT>/derivatives/state_dependence_models/tables/strict_previous_only_state_table.tsv",
+  "behavior_table": "<PROJECT_ROOT>/derivatives/beh/behavior_models/tables/trialwise_behavior_latents.tsv",
+  "outdir": "results/sensitivity_audits/state_dependence_sensitivity_controls",
+  "n_regulation_trials": 660,
+  "n_subjects": 33,
+  "crossfit_status": "OK",
+  "crossfit_k": 5,
+  "random_seed": 140
+}
