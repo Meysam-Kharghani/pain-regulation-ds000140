@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Environments
+.env
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Logs and transient files
+*.log
+*.tmp
+tmp/
+temp/
+
+# Large neuroimaging and model data should not be committed
+*.nii
+*.nii.gz
+*.img
+*.hdr
+*.gii
+*.mgz
+*.mat
+
+# Local outputs
+outputs/
+work/
+
+.pytest_cache/
+.mypy_cache/
+*.swp
+*.swo
+smoke-output/
