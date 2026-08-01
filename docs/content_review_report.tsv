@@ -1,0 +1,297 @@
+path	review_unit	units_reviewed	review_method	status	notes
+.github/workflows/validate.yml	lines	30	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+.gitignore	lines	42	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+AUTHORS.md	lines	12	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+CITATION.cff	lines	25	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+CONTRIBUTING.md	lines	13	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+LICENSE	lines	21	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+Makefile	lines	6	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+README.md	lines	98	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+code/01_behavior/prepare_behavior_table.py	lines	418	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/01_behavior/run_behavior_models.py	lines	1181	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/01_behavior/run_previous_state_prediction.py	lines	861	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/01_behavior/run_state_dependence_models.py	lines	317	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/01_behavior/validate_regulation_success.py	lines	125	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/02_preprocessing_qc/run_preprocessing_qc.py	lines	923	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/02_preprocessing_qc/smooth_functional_images.py	lines	625	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/03_glm/prepare_first_level_inputs.py	lines	896	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/03_glm/run_first_level_glm.py	lines	1098	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/03_glm/run_group_level_glm.py	lines	874	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/04_roi_signatures/build_roi_masks.py	lines	320	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/04_roi_signatures/estimate_trialwise_nps.py	lines	389	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/04_roi_signatures/run_roi_signature_analysis.py	lines	652	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/04_roi_signatures/run_signature_replication.py	lines	686	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/05_trialwise_connectivity/run_targeted_pathway_models.py	lines	615	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/05_trialwise_connectivity/run_targeted_pathway_screening.py	lines	807	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/05_trialwise_connectivity/run_trialwise_neural_state_models.py	lines	1253	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/05_trialwise_connectivity/run_trialwise_roi_connectivity.py	lines	1565	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/06_dcm/README.md	lines	23	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+code/06_dcm/audit_sessionwise_dcm_outputs.m	lines	152	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/get_sessionwise_dcm_base_config.m	lines	105	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/get_sessionwise_dcm_config.m	lines	77	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/get_sessionwise_dcm_variant_config.m	lines	204	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/run_all_sessionwise_dcm_variants.m	lines	18	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/run_reduced_group_peb_sensitivity.m	lines	433	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/run_sessionwise_dcm_pipeline.m	lines	1015	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/run_sessionwise_dcm_variant.m	lines	124	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/06_dcm/validate_sessionwise_dcm_inputs.m	lines	119	Every source line reviewed; primary-function alignment, comments, generated names, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/README.md	lines	32	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+code/07_sensitivity_audits/compare_rating_controlled_coupling.py	lines	214	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_down_regulation_attenuation_robustness.py	lines	322	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_matched_coupling_controls.py	lines	1176	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_neural_matched_passive_roi.py	lines	419	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_nps_contrast_consistency_audit.py	lines	352	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_nps_participant_influence_audit.py	lines	321	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_passive_run_position_controls.py	lines	351	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_roi_inference_qc.py	lines	384	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_state_dependence_coupling_null_controls.py	lines	304	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+code/07_sensitivity_audits/run_state_dependence_sensitivity_controls.py	lines	731	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+docs/changelog.md	lines	11	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/data_availability.md	lines	39	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/evidence_hierarchy.md	lines	13	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/generated_artifact_naming.tsv	rows	19	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	18 data rows; 4 columns.
+docs/methods_reproducibility.md	lines	61	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/naming_conventions.md	lines	25	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/quality_assurance.md	lines	25	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/rename_map.tsv	rows	95	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	94 data rows; 2 columns.
+docs/reproducibility_workflows.md	lines	89	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+docs/sensitivity_audit_manifest.md	lines	12	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+requirements_analysis.txt	lines	11	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+requirements_coupling.txt	lines	4	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/behavior/behavior_order_carryover_report.md	lines	40	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/behavior/behavior_trials_data_dictionary.tsv	rows	73	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	72 data rows; 12 columns.
+results/behavior/behavior_trials_master_clean.tsv.gz	rows	3202	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3201 data rows; 72 columns.
+results/behavior/behavior_trials_master_clean_qc.json	lines	369	Every text line reviewed and the complete JSON document parsed.	pass	
+results/behavior/behavioral_computational_report.md	lines	65	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/behavior/brain_behavior_hierarchical_links.tsv	rows	109	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	108 data rows; 6 columns.
+results/behavior/computational_model_comparison.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 13 columns.
+results/behavior/computational_model_loso_cv.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 9 columns.
+results/behavior/computational_model_nested_tests.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 9 columns.
+results/behavior/data_qc_summary.tsv	rows	15	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	14 data rows; 2 columns.
+results/behavior/gee_sensitivity_models.json	lines	542	Every text line reviewed and the complete JSON document parsed.	pass	
+results/behavior/habituation_time_effects.tsv	rows	19	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	18 data rows; 12 columns.
+results/behavior/hierarchical_state_dependence_cluster_models.tsv	rows	12	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	11 data rows; 9 columns.
+results/behavior/hierarchical_state_dependence_report.md	lines	37	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/behavior/hierarchical_up_down_state_contrasts.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 7 columns.
+results/behavior/manifest.json	lines	16	Every text line reviewed and the complete JSON document parsed.	pass	
+results/behavior/mixedlm_random_effects_up.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 3 columns.
+results/behavior/mixedlm_random_effects_up_expected_pain.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 4 columns.
+results/behavior/mixedlm_state_dependence_models.tsv	rows	14	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	13 data rows; 11 columns.
+results/behavior/order_effect_subject_tests.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 10 columns.
+results/behavior/order_subject_level_tests.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 12 columns.
+results/behavior/passive_baseline_model_summary.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 7 columns.
+results/behavior/post_regulation_carryover_subject_tests.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 14 columns.
+results/behavior/post_regulation_carryover_trial_models.tsv	rows	13	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	12 data rows; 12 columns.
+results/behavior/post_regulation_subject_summary.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 23 columns.
+results/behavior/precision_subject_condition_sd.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 7 columns.
+results/behavior/precision_tests.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 13 columns.
+results/behavior/regulation_position_tests.tsv	rows	4	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3 data rows; 14 columns.
+results/behavior/regulation_success_subject_tests.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 13 columns.
+results/behavior/regulation_success_trial_cluster_tests.tsv	rows	4	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3 data rows; 11 columns.
+results/behavior/run_condition_order_map.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 5 columns.
+results/behavior/subject_level_behavior_parameters.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 34 columns.
+results/behavior/subject_regulation_order_summary.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 22 columns.
+results/behavior/success_asymmetry_subject_tests.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 13 columns.
+results/behavior/success_asymmetry_trial_cluster_model.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 11 columns.
+results/behavior/success_definition_qc.tsv	rows	4	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3 data rows; 11 columns.
+results/behavior/task_validation_condition_effects.tsv	rows	15	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	14 data rows; 11 columns.
+results/behavior/trial_table_order_carryover.tsv.gz	rows	3202	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3201 data rows; 87 columns.
+results/behavior/trialwise_behavior_latents.tsv	rows	3202	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3201 data rows; 32 columns.
+results/behavior/trialwise_success_formula_audit.tsv	rows	661	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	660 data rows; 14 columns.
+results/glm/confound_strategy_summary.tsv	rows	289	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	288 data rows; 18 columns.
+results/glm/first_level_run_inventory.tsv	rows	289	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	288 data rows; 52 columns.
+results/glm/group_design_down_minus_passive_fe.tsv	rows	31	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	30 data rows; 2 columns.
+results/glm/group_design_regulation_mean_minus_passive_fe.tsv	rows	27	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	26 data rows; 2 columns.
+results/glm/group_design_stim_passive_fe.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 2 columns.
+results/glm/group_design_up_minus_down_fe.tsv	rows	27	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	26 data rows; 2 columns.
+results/glm/group_design_up_minus_passive_fe.tsv	rows	29	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	28 data rows; 2 columns.
+results/glm/group_level_failures.tsv	rows	1	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	0 data rows; 25 columns.
+results/glm/group_level_report.md	lines	72	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/glm/group_level_results.tsv	rows	21	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	20 data rows; 25 columns.
+results/glm/group_subject_maps_down_minus_passive_fe.tsv	rows	31	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	30 data rows; 2 columns.
+results/glm/group_subject_maps_regulation_mean_minus_passive_fe.tsv	rows	27	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	26 data rows; 2 columns.
+results/glm/group_subject_maps_stim_passive_fe.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 2 columns.
+results/glm/group_subject_maps_up_minus_down_fe.tsv	rows	27	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	26 data rows; 2 columns.
+results/glm/group_subject_maps_up_minus_passive_fe.tsv	rows	29	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	28 data rows; 2 columns.
+results/glm/pre_glm_failed.tsv	rows	1	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	0 data rows; 52 columns.
+results/glm/pre_glm_inputs_report.md	lines	44	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/glm/pre_glm_run_qc.tsv	rows	289	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	288 data rows; 52 columns.
+results/glm/robustness_summary.tsv	rows	16	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	15 data rows; 13 columns.
+results/glm/sensitivity_sets.tsv	rows	289	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	288 data rows; 14 columns.
+results/glm/subject_effect_inventory.tsv	rows	883	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	882 data rows; 10 columns.
+results/glm/subject_motion_summary.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 15 columns.
+results/preprocessing_qc/analysis_inclusion_table.tsv	rows	298	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	297 data rows; 19 columns.
+results/preprocessing_qc/fmriprep_qc_report.md	lines	78	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/preprocessing_qc/high_motion_run_candidates.tsv	rows	135	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	134 data rows; 61 columns.
+results/preprocessing_qc/high_motion_subject_candidates.tsv	rows	8	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	7 data rows; 24 columns.
+results/preprocessing_qc/regulation_run_qc.tsv	rows	67	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	66 data rows; 61 columns.
+results/preprocessing_qc/run_qc_fmriprep.tsv	rows	298	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	297 data rows; 61 columns.
+results/preprocessing_qc/smoothing_report.md	lines	28	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/preprocessing_qc/subject_qc_summary.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 24 columns.
+results/reporting/README.md	lines	10	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/reporting/figure_data/figure_01_panel_a_source_data.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 6 columns.
+results/reporting/figure_data/figure_01_panels_b_c_source_data.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 4 columns.
+results/reporting/figure_data/figure_02_panel_a_source_data.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 6 columns.
+results/reporting/figure_data/figure_02_panel_b_null_summary.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 11 columns.
+results/reporting/figure_data/figure_02_panel_b_source_data.tsv	rows	4001	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4000 data rows; 5 columns.
+results/reporting/figure_data/figure_03_panel_a_source_data.tsv	rows	8	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	7 data rows; 7 columns.
+results/reporting/figure_data/figure_03_panel_b_source_data.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 5 columns.
+results/reporting/figure_data/figure_04_panel_b_circular_shift_null.tsv	rows	5001	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5000 data rows; 3 columns.
+results/reporting/figure_data/figure_04_panel_b_shared_source_null.tsv	rows	5001	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5000 data rows; 3 columns.
+results/reporting/figure_data/figure_04_source_data.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 8 columns.
+results/reporting/figure_data/supplementary_figure_01_panel_b_source_data.tsv	rows	298	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	297 data rows; 4 columns.
+results/reporting/figure_data/supplementary_figure_01_panels_a_c_source_data.tsv	rows	36	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	35 data rows; 4 columns.
+results/reporting/figure_data/supplementary_figure_02_source_data.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 6 columns.
+results/reporting/figure_data/supplementary_figure_03_source_data.tsv	rows	14	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	13 data rows; 4 columns.
+results/reporting/figure_data/supplementary_figure_04_source_data.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 2 columns.
+results/reporting/figure_data/supplementary_figure_05_panel_a_source_data.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 4 columns.
+results/reporting/figure_data/supplementary_figure_05_panel_b_source_data.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 5 columns.
+results/reporting/figure_data/supplementary_figure_06_source_data.tsv	rows	11	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	10 data rows; 6 columns.
+results/reporting/figures/figure_01.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_01.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_02.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_02.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_03.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_03.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_04.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_04.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_01.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_01.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_02.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_02.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_03.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_03.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_04.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_04.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_05.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_05.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_06.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_06.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/source_data_map.tsv	rows	30	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	29 data rows; 2 columns.
+results/reporting/table_data/main_table_01_source_data.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 3 columns.
+results/reporting/table_data/main_table_02_source_data.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 4 columns.
+results/reporting/table_data/main_table_03_source_data.tsv	rows	8	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	7 data rows; 5 columns.
+results/reporting/table_data/main_table_04_source_data.tsv	rows	11	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	10 data rows; 5 columns.
+results/reporting/table_data/supplementary_table_s01_source_data.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 6 columns.
+results/reporting/table_data/supplementary_table_s02_source_data.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 7 columns.
+results/reporting/table_data/supplementary_table_s03_source_data.tsv	rows	15	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	14 data rows; 7 columns.
+results/reporting/table_data/supplementary_table_s04a_source_data.tsv	rows	8	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	7 data rows; 7 columns.
+results/reporting/table_data/supplementary_table_s04b_source_data.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 4 columns.
+results/reporting/table_data/supplementary_table_s05_source_data.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 8 columns.
+results/reporting/table_data/supplementary_table_s06_source_data.tsv	rows	17	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	16 data rows; 5 columns.
+results/roi_signatures/hcpex_labels_parsed.tsv	rows	427	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	426 data rows; 6 columns.
+results/roi_signatures/nps_condition_paired_tests.tsv	rows	43	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	42 data rows; 18 columns.
+results/roi_signatures/nps_direct_effect_tests.tsv	rows	61	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	60 data rows; 18 columns.
+results/roi_signatures/nps_integration_report.md	lines	14	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/roi_signatures/nps_original_style_replication_report.md	lines	33	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/roi_signatures/nps_original_style_summary.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 17 columns.
+results/roi_signatures/nps_subject_condition_values.tsv	rows	185	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	184 data rows; 27 columns.
+results/roi_signatures/nps_temperature_slope_tests.tsv	rows	43	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	42 data rows; 18 columns.
+results/roi_signatures/roi_behavior_associations.tsv	rows	2561	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2560 data rows; 11 columns.
+results/roi_signatures/roi_definitions.tsv	rows	33	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	32 data rows; 14 columns.
+results/roi_signatures/roi_label_matches.tsv	rows	153	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	152 data rows; 4 columns.
+results/roi_signatures/roi_mask_build_report.tsv	rows	33	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	32 data rows; 14 columns.
+results/roi_signatures/roi_masks_report.md	lines	75	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/roi_signatures/roi_robustness.tsv	rows	641	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	640 data rows; 8 columns.
+results/roi_signatures/roi_signature_analysis_report.md	lines	101	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/roi_signatures/roi_stats.tsv	rows	961	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	960 data rows; 16 columns.
+results/roi_signatures/roi_values.tsv.gz	rows	28225	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	28224 data rows; 11 columns.
+results/roi_signatures/signature_behavior_associations.tsv	rows	801	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	800 data rows; 11 columns.
+results/roi_signatures/signature_stats.tsv	rows	301	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	300 data rows; 15 columns.
+results/roi_signatures/signature_values.tsv.gz	rows	9703	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9702 data rows; 12 columns.
+results/roi_signatures/tian_labels_parsed.tsv	rows	55	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	54 data rows; 6 columns.
+results/sensitivity_audits/down_regulation_attenuation_robustness/README.md	lines	11	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/down_regulation_attenuation_robustness/canonical_down_minus_passive_roi_results.tsv	rows	97	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	96 data rows; 14 columns.
+results/sensitivity_audits/down_regulation_attenuation_robustness/canonical_down_minus_passive_sign_stability_summary.tsv	rows	43	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	42 data rows; 9 columns.
+results/sensitivity_audits/down_regulation_attenuation_robustness/canonical_down_minus_passive_signature_results.tsv	rows	31	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	30 data rows; 14 columns.
+results/sensitivity_audits/down_regulation_attenuation_robustness/selected_down_minus_passive_roi_results.tsv	rows	22	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	21 data rows; 6 columns.
+results/sensitivity_audits/down_regulation_attenuation_robustness/selected_down_minus_passive_signature_results.tsv	rows	13	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	12 data rows; 6 columns.
+results/sensitivity_audits/matched_coupling_controls/README.md	lines	10	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/matched_coupling_controls/circular_shift_null.tsv	rows	5001	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5000 data rows; 3 columns.
+results/sensitivity_audits/matched_coupling_controls/coupling_dcm_summary.tsv	rows	17	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	16 data rows; 5 columns.
+results/sensitivity_audits/matched_coupling_controls/reported_coupling_summary.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 8 columns.
+results/sensitivity_audits/matched_coupling_controls/shared_source_permutation_null.tsv	rows	5001	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5000 data rows; 3 columns.
+results/sensitivity_audits/neural_matched_passive_roi/README.md	lines	13	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/neural_matched_passive_roi/neural_matched_passive_subject_differences.tsv	rows	8257	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	8256 data rows; 9 columns.
+results/sensitivity_audits/neural_matched_passive_roi/neural_matched_passive_summary.tsv	rows	257	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	256 data rows; 10 columns.
+results/sensitivity_audits/neural_matched_passive_roi/standardized_run_level_roi_signature_values.tsv	rows	99265	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	99264 data rows; 5 columns.
+results/sensitivity_audits/nps_contrast_consistency/README.md	lines	14	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/nps_contrast_consistency/nps_direct_vs_arithmetic_condition_difference_summary.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 12 columns.
+results/sensitivity_audits/nps_contrast_consistency/nps_direct_vs_paired_subject_level.tsv	rows	265	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	264 data rows; 8 columns.
+results/sensitivity_audits/nps_contrast_consistency/nps_direct_vs_paired_summary.tsv	rows	5	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4 data rows; 16 columns.
+results/sensitivity_audits/nps_contrast_consistency/nps_subject_condition_values_used.tsv	rows	185	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	184 data rows; 27 columns.
+results/sensitivity_audits/nps_participant_influence/README.md	lines	15	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/nps_participant_influence/nps_largest_participant_deviations.tsv	rows	81	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	80 data rows; 6 columns.
+results/sensitivity_audits/nps_participant_influence/nps_leave_one_participant_out_means.tsv	rows	265	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	264 data rows; 6 columns.
+results/sensitivity_audits/nps_participant_influence/nps_participant_influence_summary.tsv	rows	9	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	8 data rows; 20 columns.
+results/sensitivity_audits/nps_participant_influence/nps_participant_values.tsv	rows	9	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	8 data rows; 12 columns.
+results/sensitivity_audits/passive_run_position_controls/README.md	lines	13	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/passive_run_position_controls/behavioral_run_position_matched_results.tsv	rows	13	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	12 data rows; 9 columns.
+results/sensitivity_audits/passive_run_position_controls/matched_passive_behavior_subject_runs.tsv	rows	199	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	198 data rows; 10 columns.
+results/sensitivity_audits/passive_run_position_controls/matched_passive_run_table.tsv	rows	67	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	66 data rows; 6 columns.
+results/sensitivity_audits/passive_run_position_controls/run_condition_table.tsv	rows	298	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	297 data rows; 13 columns.
+results/sensitivity_audits/passive_run_position_controls/run_position_habituation_summaries.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 7 columns.
+results/sensitivity_audits/roi_inference_qc/README.md	lines	14	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/roi_inference_qc/condition_by_analysis_set_run_counts.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 5 columns.
+results/sensitivity_audits/roi_inference_qc/contrast_by_analysis_set_subject_counts.tsv	rows	11	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	10 data rows; 4 columns.
+results/sensitivity_audits/roi_inference_qc/full_32_roi_down_minus_passive_table.tsv	rows	97	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	96 data rows; 9 columns.
+results/sensitivity_audits/roi_inference_qc/inferential_hierarchy.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 5 columns.
+results/sensitivity_audits/roi_inference_qc/roi_all_roi_fdr_table.tsv	rows	97	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	96 data rows; 9 columns.
+results/sensitivity_audits/roi_inference_qc/run_condition_qc_table.tsv	rows	298	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	297 data rows; 21 columns.
+results/sensitivity_audits/sensitivity_key_results_summary.tsv	rows	19	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	18 data rows; 9 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/additional_controls_descriptives.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 2 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/additional_room_trimmed_model_contrasts.tsv	rows	25	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	24 data rows; 10 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/additional_room_trimmed_model_terms.tsv	rows	329	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	328 data rows; 11 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/boundary_trimmed_state_dependence_results.tsv	rows	25	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	24 data rows; 10 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/coupling_null_simulation_summary.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 14 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/null_simulation_coefficients.tsv	rows	4001	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4000 data rows; 5 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/null_simulation_summary.tsv	rows	3	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	2 data rows; 14 columns.
+results/sensitivity_audits/state_dependence_coupling_null_controls/run_metadata.json	lines	7	Every text line reviewed and the complete JSON document parsed.	pass	
+results/sensitivity_audits/state_dependence_sensitivity_controls/README.md	lines	13	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/sensitivity_audits/state_dependence_sensitivity_controls/crossfit_passive_baseline_log.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 5 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/crossfit_passive_baseline_results.tsv	rows	37	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	36 data rows; 13 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/crossfit_passive_baseline_trial_table.tsv	rows	661	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	660 data rows; 45 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/descriptives_and_margins.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 10 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/expected_pain_bin_results.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 13 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/run_metadata.json	lines	11	Every text line reviewed and the complete JSON document parsed.	pass	
+results/sensitivity_audits/state_dependence_sensitivity_controls/sensitivity_model_contrasts.tsv	rows	25	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	24 data rows; 9 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/sensitivity_model_terms.tsv	rows	25	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	24 data rows; 11 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/state_dependence_sensitivity_summary.tsv	rows	49	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	48 data rows; 17 columns.
+results/sensitivity_audits/state_dependence_sensitivity_controls/stimulus_bin_results.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 13 columns.
+results/trialwise_connectivity/README.md	lines	11	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/trialwise_connectivity/ec_lagged_edge_contrast_tests.tsv	rows	1562	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	1561 data rows; 15 columns.
+results/trialwise_connectivity/ec_lagged_edges.tsv.gz	rows	51514	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	51513 data rows; 8 columns.
+results/trialwise_connectivity/fc_beta_series_edges.tsv.gz	rows	28645	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	28644 data rows; 7 columns.
+results/trialwise_connectivity/fc_edge_contrast_tests.tsv	rows	869	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	868 data rows; 14 columns.
+results/trialwise_connectivity/pathway_behavior_correlations.tsv	rows	3858	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3857 data rows; 12 columns.
+results/trialwise_connectivity/pathway_edge_inventory.tsv	rows	224	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	223 data rows; 7 columns.
+results/trialwise_connectivity/pathway_score_tests.tsv	rows	134	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	133 data rows; 13 columns.
+results/trialwise_connectivity/pathway_scores.tsv	rows	4390	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4389 data rows; 6 columns.
+results/trialwise_connectivity/roi_activity_subject_summary.tsv	rows	1057	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	1056 data rows; 10 columns.
+results/trialwise_connectivity/roi_activity_subject_tests.tsv	rows	225	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	224 data rows; 12 columns.
+results/trialwise_connectivity/roi_behavior_correlations.tsv	rows	4061	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	4060 data rows; 13 columns.
+results/trialwise_connectivity/roi_definitions_used.tsv	rows	33	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	32 data rows; 15 columns.
+results/trialwise_connectivity/run_inventory_roi_lss.tsv	rows	289	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	288 data rows; 9 columns.
+results/trialwise_connectivity/screening_predictor_outcome_matrix.tsv	rows	34	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	33 data rows; 41 columns.
+results/trialwise_connectivity/screening_reduced_pathway_family_summary.tsv	rows	4	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3 data rows; 16 columns.
+results/trialwise_connectivity/screening_reduced_pathway_leave_one_out.tsv	rows	19	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	18 data rows; 15 columns.
+results/trialwise_connectivity/screening_reduced_pathway_models_report.md	lines	33	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/trialwise_connectivity/screening_reduced_pathway_results.tsv	rows	19	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	18 data rows; 43 columns.
+results/trialwise_connectivity/screening_reduced_pathway_specs.tsv	rows	19	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	18 data rows; 8 columns.
+results/trialwise_connectivity/targeted_ec_edges.tsv	rows	3697	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3696 data rows; 10 columns.
+results/trialwise_connectivity/targeted_ec_tests.tsv	rows	113	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	112 data rows; 15 columns.
+results/trialwise_connectivity/targeted_family_summary.tsv	rows	35	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	34 data rows; 7 columns.
+results/trialwise_connectivity/targeted_fc_edges.tsv	rows	10627	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	10626 data rows; 9 columns.
+results/trialwise_connectivity/targeted_fc_tests.tsv	rows	323	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	322 data rows; 15 columns.
+results/trialwise_connectivity/targeted_pathway_fc_ec_behavior_report.md	lines	159	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/trialwise_connectivity/targeted_roi_activity_long.tsv	rows	661	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	660 data rows; 12 columns.
+results/trialwise_connectivity/targeted_roi_activity_tests.tsv	rows	141	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	140 data rows; 15 columns.
+results/trialwise_connectivity/trialwise_roi_fc_ec_report.md	lines	35	Every text line reviewed for naming, portability, public tone, internal instructions, and local references.	pass	
+results/trialwise_connectivity/trialwise_roi_lss_wide.tsv.gz	rows	3103	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	3102 data rows; 55 columns.
+tools/diagnose_lss_design_estimability.py	lines	285	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+tools/extract_bids_acquisition_parameters.py	lines	116	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+tools/preflight_analysis_inputs.py	lines	185	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+tools/preflight_sessionwise_dcm_inputs.py	lines	217	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+tools/set_png_dpi.py	lines	23	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+tools/validate_repository.py	lines	265	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	
+tools/verify_reproduced_outputs.py	lines	138	Every source line reviewed; AST syntax, identifiers, comments, docstrings, argparse destinations, paths, and public-language checks.	pass	

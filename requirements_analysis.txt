@@ -1,0 +1,11 @@
+# Exact dependency releases used by the matched coupling control analysis
+-r requirements_coupling.txt
+
+# Additional dependencies used by the broader Python imaging workflow.
+# These ranges document compatibility; the historical full imaging environment
+# was not captured as one lockfile and should not be represented as exact.
+nilearn>=0.10,<1
+nibabel>=5,<6
+scikit-learn>=1.3,<2
+matplotlib>=3.7,<4
+openpyxl>=3.1,<4

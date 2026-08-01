@@ -1,0 +1,19 @@
+artifact_type	previous_template	canonical_template	role
+directory	DCM_structs	dcm_structs	generated DCM structures
+directory	estimated_DCMs	estimated_dcms	estimated run-level DCM objects
+directory	PEB	peb_group	group-level PEB objects
+directory	PEB_subjects	peb_subjects	participant-level PEB objects
+directory	PEB_reduced_designs	peb_reduced_designs	reduced-design sensitivity outputs
+log	sessionwise_DCM_PEB_run_log.txt	sessionwise_dcm_peb_run_log.txt	workflow log
+mat	DCM_<subject>_run-<run>_<condition>_unestimated.mat	dcm_<subject>_run-<run>_<condition>_unestimated.mat	unestimated run-level DCM
+mat	DCM_<subject>_run-<run>_<condition>_estimated.mat	dcm_<subject>_run-<run>_<condition>_estimated.mat	estimated run-level DCM
+mat	PEB_<subject>_all_conditions.mat	peb_<subject>_all_conditions.mat	participant PEB across conditions
+mat	PEB_<subject>_up_minus_down.mat	peb_<subject>_up_minus_down.mat	participant direction PEB
+mat	PEB_hierarchical_all_conditions_B.mat	peb_hierarchical_all_conditions_b.mat	hierarchical PEB
+mat	BMA_BMR_hierarchical_all_conditions_B.mat	bma_bmr_hierarchical_all_conditions_b.mat	Bayesian model comparison outputs
+tsv	peb_BMA_hierarchical_all_conditions_parameters.tsv	peb_bma_hierarchical_all_conditions_parameters.tsv	BMA parameter table
+mat	PEB_hierarchical_up_minus_down_B.mat	peb_hierarchical_up_minus_down_b.mat	direction hierarchical PEB
+mat	BMA_BMR_hierarchical_up_minus_down_B.mat	bma_bmr_hierarchical_up_minus_down_b.mat	direction Bayesian model comparison outputs
+tsv	peb_BMA_hierarchical_up_minus_down_parameters.tsv	peb_bma_hierarchical_up_minus_down_parameters.tsv	direction BMA parameter table
+mat	<design>_BMA_BMR.mat	<design>_bma_bmr.mat	reduced-design Bayesian model comparison outputs
+tsv	<design>_EXACT_LABELS.tsv	<design>_exact_labels.tsv	reduced-design parameter labels

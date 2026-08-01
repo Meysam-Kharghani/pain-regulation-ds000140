@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+title: "Pain regulation in ds000140: analysis code and derived results"
+message: "Please cite this code collection and the original ds000140 dataset publication when using these materials."
+type: software
+authors:
+  - family-names: Kharghani
+    given-names: Meysam
+    email: meysamkharghani@gmail.com
+    affiliation: "Department of Cognitive Neuroscience, Faculty of Education and Psychology, University of Tabriz, Tabriz, Iran"
+    orcid: "https://orcid.org/0009-0004-9527-756X"
+  - family-names: Gholami
+    given-names: Elahe
+    email: elahegholami6590@gmail.com
+    affiliation: "Department of Cognitive Neuroscience, Faculty of Education and Psychology, University of Tabriz, Tabriz, Iran"
+    orcid: "https://orcid.org/0009-0004-8802-402X"
+repository-code: "https://github.com/Meysam-Kharghani/pain-regulation-ds000140"
+url: "https://github.com/Meysam-Kharghani/pain-regulation-ds000140"
+license: MIT
+keywords:
+  - pain regulation
+  - fMRI
+  - neuroimaging
+  - ds000140
+  - OpenNeuro
+  - effective connectivity
