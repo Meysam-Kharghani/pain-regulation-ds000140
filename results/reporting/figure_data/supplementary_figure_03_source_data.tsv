@@ -1,0 +1,14 @@
+label	z	p	q
+Standardized success	-2.958	0.003	0.013
+Cross-fitted observed rating (fractional logit)	-2.868	0.004	0.011
+Cross-fitted standardized success	-2.59	0.01	0.022
+Raw success	-1.761	0.078	0.183
+Cross-fitted raw success	-1.699	0.089	0.161
+Observed rating (bounded logit)	-1.648	0.099	0.196
+Cross-fitted observed rating (bounded logit)	-1.457	0.145	0.218
+Observed rating (raw)	-1.061	0.289	0.433
+Cross-fitted observed rating (raw)	-0.87	0.384	0.494
+Available-room-normalized success	-0.425	0.671	0.783
+Cross-fitted available-room success	-0.182	0.856	0.856
+Observed rating (standardized)	-0.107	0.915	0.961
+Available-room success, clipped	2.138	0.033	0.085

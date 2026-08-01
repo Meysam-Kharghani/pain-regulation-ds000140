@@ -1,0 +1,15 @@
+metric	value
+n_rows	3201
+n_subjects	33
+n_runs	297
+n_trials_passive	2541
+n_trials_up	330
+n_trials_down	330
+n_rating_missing	0
+n_temperature_missing	0
+rating_raw_min	0.0
+rating_raw_max	200.0
+n_rating_raw_gt_100	1699
+reg_runs	3,7
+n_subjects_up_first	16
+n_subjects_down_first	17

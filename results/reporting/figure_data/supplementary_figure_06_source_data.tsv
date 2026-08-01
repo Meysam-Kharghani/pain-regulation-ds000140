@@ -1,0 +1,11 @@
+section	label	estimate	low	high	p_or_pp
+coupling_correlation	forward_composite	-0.545718907902466			0.0010205427250187
+coupling_correlation	reverse_composite	0.2648895297114575			0.1362874064569391
+coupling_correlation	synchronous_composite	0.0635405483373326			0.7253680392715559
+coupling_correlation	time_reversed_composite	-0.0158738361174405			0.9301329632109336
+coupling_delta	forward_minus_reverse_composite	-0.8106084376139235	-1.178367909593074	-0.3198356432617357	0.0065993400659934
+coupling_delta	forward_minus_synchronous_composite	-0.6092594562397987	-1.0699726815360282	-0.0112154219377842	0.046995300469953
+coupling_delta	forward_minus_time_reversed_composite	-0.5298450717850255	-0.954447847753608	-0.0627522396456678	0.0386961303869613
+dcm	primary_DirectionMean_vmPFC_to_pgACC	0.263574	0.12582	0.401328	0.960169
+dcm	affective_right_UpMinusDown_PAG_to_hypothalamus	0.655	0.356	0.954	0.987
+dcm	sensory_right_down_success_x_DownMinusPassive_thalamus_to_postinsula	-0.697746	-1.062402	-0.333089	0.976227

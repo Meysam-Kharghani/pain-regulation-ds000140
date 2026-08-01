@@ -1,0 +1,369 @@
+{
+  "n_rows_raw": 3201,
+  "n_cols_raw": 39,
+  "n_rows_master": 3201,
+  "n_cols_master": 72,
+  "n_subjects": 33,
+  "subjects": [
+    "sub-01",
+    "sub-02",
+    "sub-03",
+    "sub-04",
+    "sub-05",
+    "sub-06",
+    "sub-07",
+    "sub-08",
+    "sub-09",
+    "sub-10",
+    "sub-11",
+    "sub-12",
+    "sub-13",
+    "sub-14",
+    "sub-15",
+    "sub-16",
+    "sub-17",
+    "sub-18",
+    "sub-19",
+    "sub-20",
+    "sub-21",
+    "sub-22",
+    "sub-23",
+    "sub-24",
+    "sub-25",
+    "sub-26",
+    "sub-27",
+    "sub-28",
+    "sub-29",
+    "sub-30",
+    "sub-31",
+    "sub-32",
+    "sub-33"
+  ],
+  "condition_counts": {
+    "passive": 2541,
+    "up": 330,
+    "down": 330
+  },
+  "run_counts": {
+    "1": 363,
+    "2": 363,
+    "3": 330,
+    "4": 363,
+    "5": 363,
+    "6": 363,
+    "7": 330,
+    "8": 363,
+    "9": 363
+  },
+  "trials_per_subject_min": 97,
+  "trials_per_subject_max": 97,
+  "duplicate_trial_id_count": 0,
+  "missing_by_column": {
+    "reg_condition": 2541,
+    "condition_code_ud": 2541,
+    "prev_temperature_subject": 33,
+    "prev_rating_raw_subject": 33,
+    "prev_rating_z_subject": 33,
+    "prev_condition_subject": 33,
+    "prev_run_subject": 33,
+    "prev_temperature_withinrun": 297,
+    "prev_rating_raw_withinrun": 297,
+    "prev_condition_withinrun": 297,
+    "prev_stim_onset_runrel_withinrun": 297,
+    "delta_prev_stim_withinrun": 297,
+    "prev_rating_minus_expected_subject_mean": 33,
+    "prev_temp_minus_subject_mean": 33
+  },
+  "rating_raw_min": 0.0,
+  "rating_raw_max": 200.0,
+  "rating_raw_over_100_count": 1699,
+  "rating_raw_over_100_by_condition": {
+    "passive": 1369,
+    "up": 206,
+    "down": 124
+  },
+  "temperature_unique_values": [
+    40.8,
+    42.1,
+    42.3,
+    43.3,
+    43.4,
+    44.0,
+    44.3,
+    44.7,
+    45.0,
+    45.3,
+    46.0,
+    46.3,
+    47.3
+  ],
+  "temperature_by_condition_counts": [
+    {
+      "condition": "passive",
+      "temperature_raw": 40.8,
+      "n": 2
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 42.1,
+      "n": 9
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 42.3,
+      "n": 363
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 43.3,
+      "n": 492
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 43.4,
+      "n": 10
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 44.0,
+      "n": 1
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 44.3,
+      "n": 518
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 44.7,
+      "n": 9
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 45.0,
+      "n": 1
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 45.3,
+      "n": 504
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 46.0,
+      "n": 10
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 46.3,
+      "n": 483
+    },
+    {
+      "condition": "passive",
+      "temperature_raw": 47.3,
+      "n": 139
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 40.8,
+      "n": 2
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 42.1,
+      "n": 2
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 42.3,
+      "n": 64
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 43.3,
+      "n": 64
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 43.4,
+      "n": 2
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 44.0,
+      "n": 0
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 44.3,
+      "n": 64
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 44.7,
+      "n": 2
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 45.0,
+      "n": 0
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 45.3,
+      "n": 64
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 46.0,
+      "n": 2
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 46.3,
+      "n": 64
+    },
+    {
+      "condition": "up",
+      "temperature_raw": 47.3,
+      "n": 0
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 40.8,
+      "n": 2
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 42.1,
+      "n": 2
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 42.3,
+      "n": 64
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 43.3,
+      "n": 64
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 43.4,
+      "n": 2
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 44.0,
+      "n": 0
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 44.3,
+      "n": 64
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 44.7,
+      "n": 2
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 45.0,
+      "n": 0
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 45.3,
+      "n": 64
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 46.0,
+      "n": 2
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 46.3,
+      "n": 64
+    },
+    {
+      "condition": "down",
+      "temperature_raw": 47.3,
+      "n": 0
+    }
+  ],
+  "rating_onset_rel_first_stim_existing_minus_recomputed_abs_max": 1.7053025658242404e-13,
+  "old_rating_onset_runrel_name_is_not_true_runrel_abs_median_diff": 10.215999999999923,
+  "run_start_abs_est_range_max_within_subject_run": 1.1368683772161603e-13,
+  "run_start_abs_est_range_median_within_subject_run": 0.0,
+  "reg_up_down_temperature_count_abs_diff_sum": 0,
+  "reg_up_down_temperature_count_table": [
+    {
+      "temperature_raw": 40.8,
+      "passive": 0,
+      "up": 2,
+      "down": 2
+    },
+    {
+      "temperature_raw": 42.1,
+      "passive": 0,
+      "up": 2,
+      "down": 2
+    },
+    {
+      "temperature_raw": 42.3,
+      "passive": 0,
+      "up": 64,
+      "down": 64
+    },
+    {
+      "temperature_raw": 43.3,
+      "passive": 0,
+      "up": 64,
+      "down": 64
+    },
+    {
+      "temperature_raw": 43.4,
+      "passive": 0,
+      "up": 2,
+      "down": 2
+    },
+    {
+      "temperature_raw": 44.3,
+      "passive": 0,
+      "up": 64,
+      "down": 64
+    },
+    {
+      "temperature_raw": 44.7,
+      "passive": 0,
+      "up": 2,
+      "down": 2
+    },
+    {
+      "temperature_raw": 45.3,
+      "passive": 0,
+      "up": 64,
+      "down": 64
+    },
+    {
+      "temperature_raw": 46.0,
+      "passive": 0,
+      "up": 2,
+      "down": 2
+    },
+    {
+      "temperature_raw": 46.3,
+      "passive": 0,
+      "up": 64,
+      "down": 64
+    }
+  ],
+  "rating_z_existing_minus_recomputed_abs_max": 2.6645352591003757e-15,
+  "rating_z_existing_minus_recomputed_abs_median": 5.551115123125783e-17,
+  "warnings": [
+    "rating_raw contains values >100; treat it as raw recorded scale, not necessarily a 0-100 VAS."
+  ]
+}

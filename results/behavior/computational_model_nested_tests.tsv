@@ -1,0 +1,5 @@
+comparison	restricted_model	full_model	df_diff	lr_chi2	p_lrt	delta_aic_full_minus_restricted	delta_bic_full_minus_restricted	q_bh_lrt
+M0_sensory_only -> M1_additive_regulatory_shift	M0_sensory_only	M1_additive_regulatory_shift	2.0	142.51230202305305	1.1320010091873958e-31	-138.51230202305305	-126.39059051718505	2.2640020183747916e-31
+M1_additive_regulatory_shift -> M2_gain_modulation	M1_additive_regulatory_shift	M2_gain_modulation	2.0	3.7966324165772676	0.14982067376808872	0.20336758342273242	12.325079089291648	0.14982067376808872
+M1_additive_regulatory_shift -> M3_history_state	M1_additive_regulatory_shift	M3_history_state	2.0	194.52326673361677	5.751873523635378e-43	-190.52326673361677	-178.40155522774785	2.3007494094541513e-42
+M3_history_state -> M4_state_dependent_regulation	M3_history_state	M4_state_dependent_regulation	2.0	8.407182767621634	0.014941818539741691	-4.407182767621634	7.714528738247282	0.01992242471965559

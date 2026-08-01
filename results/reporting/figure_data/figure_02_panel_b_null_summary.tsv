@@ -1,0 +1,3 @@
+mode	n_sim	observed_up_minus_down_slope_raw	null_mean	null_median	null_p025	null_p975	observed_percentile_rank	observed_within_central_95	observed_below_null_min	observed_above_null_max
+unclipped	2000	-0.194255771653296	-0.2024840650084772	-0.2038292114266353	-0.3106166099140801	-0.09161646750698667	56.05	True	False	False
+clipped_0_200	2000	-0.194255771653296	-0.34373558184388125	-0.34343864604788255	-0.4353611091228673	-0.2537056258807767	100.0	False	False	True

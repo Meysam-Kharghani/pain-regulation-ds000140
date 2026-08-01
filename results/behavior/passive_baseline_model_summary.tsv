@@ -1,0 +1,5 @@
+model_name	formula	n_obs	r2	r2_adj	aic	bic
+raw_P0_sensory	rating_raw ~ C(subject) + temperature_z_subject	2541	0.5762484800889753	0.5706705781515745	25549.153552796342	25747.724194229228
+raw_P1_time	rating_raw ~ C(subject) + temperature_z_subject + trial_in_run_c + run_centered_subject + I(run_centered_subject**2) + passive_context_shifted	2541	0.6017302111768726	0.5958428830959874	25399.566809612916	25621.498702979083
+z_P0_sensory	rating_z_subject ~ C(subject) + temperature_z_subject	2541	0.5050689607036115	0.49855411255970217	5514.265152108066	5712.835793540951
+z_P1_time	rating_z_subject ~ C(subject) + temperature_z_subject + trial_in_run_c + run_centered_subject + I(run_centered_subject**2) + passive_context_shifted	2541	0.5384870298398201	0.5316648245278238	5344.628211593814	5566.56010495998

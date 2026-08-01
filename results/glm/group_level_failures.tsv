@@ -1,0 +1,1 @@
+set_name	effect	n_subjects	covariate	status	error	group_design	group_beta_map	group_var_map	group_stat_map	group_z_map	group_p_map	fdr_threshold	fdr_map	fdr_note	unc001_map	unc001_threshold	z_max	z_min	z_max_abs	source_subject_effect_set	min_subjects_required	cov_beta_map	cov_z_map	cov_stat_map
