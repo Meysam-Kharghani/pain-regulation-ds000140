@@ -2,7 +2,7 @@
 
 ## Public source data
 
-The source dataset is OpenNeuro ds000140. The repository does not redistribute the raw MRI files. Obtain the dataset from OpenNeuro and set `DS000140_ROOT` to its absolute location.
+The source dataset is [OpenNeuro ds000140](https://openneuro.org/datasets/ds000140), originally reported by Woo et al. (2015) in *PLOS Biology* ([doi:10.1371/journal.pbio.1002036](https://doi.org/10.1371/journal.pbio.1002036)). The repository does not redistribute the raw MRI files. Obtain the dataset from OpenNeuro and set `DS000140_ROOT` to its absolute location.
 
 ## Included derived materials
 

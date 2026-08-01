@@ -13,6 +13,11 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MANIFEST = ROOT / "docs" / "file_manifest.tsv"
+MUTABLE_RELEASE_METADATA = {
+    ROOT / "README.md",
+    ROOT / "CITATION.cff",
+    ROOT / "docs" / "changelog.md",
+}
 EXCLUDED_PARTS = {".git", ".venv", "__pycache__"}
 TEXT_SUFFIXES = {".cff", ".json", ".m", ".md", ".py", ".txt", ".tsv", ".yaml", ".yml"}
 STANDARD_FILENAMES = {
@@ -243,8 +248,15 @@ else:
     if len(expected) != len(rows):
         errors.append("Duplicate checksum-manifest path.")
     actual: dict[str, tuple[int, str]] = {}
+    mutable_relative = {relative(path) for path in MUTABLE_RELEASE_METADATA}
+    manifest_mutable = sorted(mutable_relative.intersection(expected))
+    if manifest_mutable:
+        errors.append(
+            "Mutable release metadata must not be checksum-pinned: "
+            + ", ".join(manifest_mutable)
+        )
     for path in files:
-        if path == MANIFEST:
+        if path == MANIFEST or path in MUTABLE_RELEASE_METADATA:
             continue
         payload = path.read_bytes()
         actual[relative(path)] = (len(payload), hashlib.sha256(payload).hexdigest())

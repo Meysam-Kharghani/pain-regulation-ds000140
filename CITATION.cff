@@ -1,7 +1,10 @@
 cff-version: 1.2.0
 title: "Pain regulation in ds000140: analysis code and derived results"
-message: "Please cite this code collection and the original ds000140 dataset publication when using these materials."
+version: "1.0.0"
+date-released: 2026-08-02
+message: "Please cite this software release and the original ds000140 dataset publication when using these materials."
 type: software
+abstract: "Analysis code, derived tables, quality-control summaries, and reporting assets for a reproducible secondary analysis of the public OpenNeuro ds000140 heat-pain regulation fMRI dataset."
 authors:
   - family-names: Kharghani
     given-names: Meysam
@@ -18,8 +21,10 @@ url: "https://github.com/Meysam-Kharghani/pain-regulation-ds000140"
 license: MIT
 keywords:
   - pain regulation
-  - fMRI
+  - functional MRI
   - neuroimaging
   - ds000140
   - OpenNeuro
   - effective connectivity
+  - dynamic causal modeling
+  - reproducible research

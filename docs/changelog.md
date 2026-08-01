@@ -1,5 +1,7 @@
 # Change log
 
+## 1.0.0 — 2026-08-02
+
 - Added exact reporting figures and machine-readable figure/table source data.
 - Replaced the trialwise ROI estimator with the rating-adjusted FWL-LSS implementation.
 - Added a matching trialwise NPS estimator.

@@ -11,7 +11,7 @@ The public tree is checked for:
 - personal filesystem locations;
 - internal conversational or automated-assistant language;
 - project-status labels in filenames;
-- checksums for all stable files.
+- checksums for all stable files; mutable release metadata (`README.md`, `CITATION.cff`, and `docs/changelog.md`) are validated structurally but intentionally excluded from the checksum manifest.
 
 Scientific cross-checks include:
 
