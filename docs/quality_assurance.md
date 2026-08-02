@@ -1,10 +1,11 @@
 # Quality assurance
 
-The public tree is checked for:
+The public tree is checked by a standard-library-only repository validator for:
 
 - Python syntax;
 - valid JSON and rectangular TSV files;
 - complete reporting-source mappings;
+- 300-dpi resolution metadata for reporting PNG figures;
 - repository-relative Markdown links;
 - missing or empty files;
 - compiled caches and temporary artifacts;

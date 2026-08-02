@@ -53,12 +53,12 @@ git clone https://github.com/Meysam-Kharghani/pain-regulation-ds000140.git
 cd pain-regulation-ds000140
 python -m venv .venv
 source .venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install -r requirements_analysis.txt
 make validate
 ```
 
-The validation target checks Python syntax, MATLAB primary-function naming, path conventions, JSON and TSV structure, repository-relative links, checksums, nonportable paths, transient caches, and internal working language.
+The validation target uses only the Python standard library and checks Python syntax, MATLAB primary-function naming, path conventions, JSON and TSV structure, repository-relative links, checksums, nonportable paths, transient caches, and internal working language.
+
+Install `requirements_analysis.txt` only when running the Python analysis workflows; it is not required for repository validation.
 
 ## Reproduction levels
 

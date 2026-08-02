@@ -8,6 +8,7 @@ import gzip
 import hashlib
 import json
 import re
+import struct
 import sys
 from pathlib import Path
 
@@ -228,6 +229,35 @@ for path in files:
             continue
         if not resolved.exists():
             errors.append(f"Broken Markdown link: {relative(path)} -> {target}")
+
+# Reporting-image resolution metadata.
+def png_dpi(path: Path) -> tuple[float, float] | None:
+    payload = path.read_bytes()
+    if not payload.startswith(b"\x89PNG\r\n\x1a\n"):
+        return None
+    offset = 8
+    while offset + 12 <= len(payload):
+        length = struct.unpack(">I", payload[offset:offset + 4])[0]
+        kind = payload[offset + 4:offset + 8]
+        data = payload[offset + 8:offset + 8 + length]
+        if kind == b"pHYs" and len(data) == 9:
+            x_ppm, y_ppm, unit = struct.unpack(">IIB", data)
+            if unit == 1:
+                return x_ppm * 0.0254, y_ppm * 0.0254
+            return None
+        offset += 12 + length
+    return None
+
+reporting_figures = ROOT / "results" / "reporting" / "figures"
+for path in sorted(reporting_figures.glob("*.png")):
+    resolution = png_dpi(path)
+    if resolution is None:
+        errors.append(f"Missing physical-resolution metadata in reporting PNG: {relative(path)}")
+    elif any(abs(value - 300.0) > 1.0 for value in resolution):
+        errors.append(
+            f"Reporting PNG is not 300 dpi: {relative(path)} -> "
+            f"{resolution[0]:.2f} x {resolution[1]:.2f}"
+        )
 
 # Source-data mapping.
 source_map = ROOT / "results" / "reporting" / "source_data_map.tsv"

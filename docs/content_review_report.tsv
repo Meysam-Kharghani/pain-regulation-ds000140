@@ -148,25 +148,25 @@ results/reporting/figure_data/supplementary_figure_05_panel_a_source_data.tsv	ro
 results/reporting/figure_data/supplementary_figure_05_panel_b_source_data.tsv	rows	6	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	5 data rows; 5 columns.
 results/reporting/figure_data/supplementary_figure_06_source_data.tsv	rows	11	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	10 data rows; 6 columns.
 results/reporting/figures/figure_01.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/figure_01.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_01.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/figure_02.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/figure_02.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_02.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/figure_03.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/figure_03.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_03.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/figure_04.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/figure_04.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/figure_04.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/supplementary_figure_01.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/supplementary_figure_01.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_01.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/supplementary_figure_02.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/supplementary_figure_02.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_02.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/supplementary_figure_03.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/supplementary_figure_03.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_03.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/supplementary_figure_04.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/supplementary_figure_04.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_04.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/supplementary_figure_05.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/supplementary_figure_05.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_05.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/figures/supplementary_figure_06.pdf	pages	1	PDF openability, page count, canonical name, paired-format presence, and source-data mapping verified.	pass	
-results/reporting/figures/supplementary_figure_06.png	items	1	Binary image integrity, canonical name, paired-format presence, and source-data mapping verified.	pass	
+results/reporting/figures/supplementary_figure_06.png	items	1	Binary image integrity, 300-dpi metadata, canonical name, paired-format presence, and source-data mapping verified.	pass	
 results/reporting/source_data_map.tsv	rows	30	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	29 data rows; 2 columns.
 results/reporting/table_data/main_table_01_source_data.tsv	rows	7	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	6 data rows; 3 columns.
 results/reporting/table_data/main_table_02_source_data.tsv	rows	10	All rows parsed; header and textual fields reviewed; rectangularity and UTF-8 decoding verified.	pass	9 data rows; 4 columns.

@@ -11,3 +11,5 @@
 - Restored deterministic SHA-256-derived random seeds in signature analyses.
 - Preserved the centered-percentile interpretation of nonzero state-dependence null distributions.
 - Standardized public filenames, paths, and documentation.
+- Normalized reporting PNG resolution metadata to 300 dpi and added automated validation.
+- Simplified continuous integration so repository validation does not install analysis dependencies.
