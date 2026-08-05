@@ -2,6 +2,7 @@
 
 [![Repository validation](https://github.com/Meysam-Kharghani/pain-regulation-ds000140/actions/workflows/validate.yml/badge.svg)](https://github.com/Meysam-Kharghani/pain-regulation-ds000140/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21752985.svg)](https://doi.org/10.5281/zenodo.21752985)
 
 Analysis code, derived tables, and reporting assets for a secondary analysis of the public OpenNeuro ds000140 heat-pain regulation dataset.
 
