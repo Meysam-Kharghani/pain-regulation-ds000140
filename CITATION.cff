@@ -1,6 +1,7 @@
 cff-version: 1.2.0
 title: "Pain regulation in ds000140: analysis code and derived results"
 version: "1.0.0"
+doi: "10.5281/zenodo.21752985"
 date-released: 2026-08-02
 message: "Please cite this software release and the original ds000140 dataset publication when using these materials."
 type: software
