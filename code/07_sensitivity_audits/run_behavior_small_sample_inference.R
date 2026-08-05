@@ -7,6 +7,13 @@
 # Intercept-only models use the algebraically equivalent participant-cluster
 # sign-flip implementation.
 #
+# Usage:
+# Rscript run_behavior_small_sample_inference.R \
+#   results/behavior/trial_table_order_carryover.tsv.gz \
+#   results/behavior/trialwise_behavior_latents.tsv \
+#   derivatives/behavior_small_sample_sensitivity \
+#   9999 \
+#   20260803
 
 args <- commandArgs(trailingOnly = TRUE)
 if (length(args) < 3L || length(args) > 5L) {
