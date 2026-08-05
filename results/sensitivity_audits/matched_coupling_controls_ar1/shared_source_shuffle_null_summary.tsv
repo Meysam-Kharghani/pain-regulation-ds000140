@@ -1,0 +1,2 @@
+null_name	observed_forward_r	n_subjects_observed	n_null	null_mean_r	null_sd_r	null_ci_low	null_ci_high	empirical_two_sided_p	observed_percentile_rank	null_scope
+shared_source_permutation	-0.5848400007051204	33	5000	-0.0053917200767349	0.1738505248905759	-0.3405461810881943	0.3317128151364209	0.0007998400319936	0.000499900019996	Conditional on the selected pathway and fixed three-coefficient composite; the screening/selection stage was not rerun.

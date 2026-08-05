@@ -16,6 +16,22 @@ python code/01_behavior/run_state_dependence_models.py --help
 python code/07_sensitivity_audits/run_state_dependence_coupling_null_controls.py --help
 ```
 
+
+## Finite-cluster behavioral inference
+
+Install the R dependencies `clubSandwich`, `fwildclusterboot`, and `dqrng`, then run:
+
+```bash
+Rscript code/07_sensitivity_audits/run_behavior_small_sample_inference.R \
+  results/behavior/trial_table_order_carryover.tsv.gz \
+  results/behavior/trialwise_behavior_latents.tsv \
+  derivatives/behavior_small_sample_sensitivity \
+  9999 \
+  20260803
+```
+
+The distributed table is in `results/sensitivity_audits/behavior_small_sample_inference/`.
+
 ## Preprocessing QC and GLM
 
 ```bash
@@ -65,6 +81,47 @@ python code/07_sensitivity_audits/run_matched_coupling_controls.py \
 ```
 
 The distributed result summary and null distributions are in `results/sensitivity_audits/matched_coupling_controls/` and `results/reporting/`.
+
+
+## AR(1)-prewhitened ROI and coupling sensitivity
+
+```bash
+python code/07_sensitivity_audits/run_ar1_prewhitening_sensitivity.py roi \
+  --inventory "$DS000140_ROOT/derivatives/firstlevel_GLM_NATURE_v1/tables/first_level_run_inventory.tsv" \
+  --roi-definitions "$DS000140_ROOT/derivatives/roi_masks_NATURE_v3/roi_definitions.tsv" \
+  --behavior-trials results/behavior/behavior_trials_master_clean.tsv.gz \
+  --bold-column bold_unsmoothed \
+  --rating-events-column events_long \
+  --runs 3,7 \
+  --outdir "$DS000140_ROOT/derivatives/trialwise_roi_connectivity_ar1"
+
+python code/07_sensitivity_audits/run_matched_coupling_controls.py \
+  --project . \
+  --trialwise-table "$DS000140_ROOT/derivatives/trialwise_roi_connectivity_ar1/tables/trialwise_roi_lss_wide.tsv.gz" \
+  --matrix-table results/trialwise_connectivity/screening_predictor_outcome_matrix.tsv \
+  --subject-col subject \
+  --run-col run \
+  --trial-col trial_lss_index \
+  --condition-col condition \
+  --temperature-col temperature_for_model \
+  --source-col roi_reg_dlPFC_IFJ_L \
+  --vmpfc-col roi_reg_vmPFC \
+  --mofc-col roi_reg_mOFC \
+  --combined-col roi_reg_vmPFC_mOFC \
+  --condition-value up \
+  --n-shuffle 5000 \
+  --n-circular-shift 5000 \
+  --n-bootstrap 5000 \
+  --shuffle-seed 1234 \
+  --circular-shift-seed 8241 \
+  --bootstrap-seed 2024 \
+  --minimum-reproduction-r 0.95 \
+  --outdir "$DS000140_ROOT/derivatives/matched_coupling_controls_ar1"
+```
+
+Portable trial estimates and derived coupling tables are distributed in
+`results/sensitivity_audits/ar1_prewhitening_roi/` and
+`results/sensitivity_audits/matched_coupling_controls_ar1/`.
 
 ## Run-separated DCM
 

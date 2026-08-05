@@ -1,0 +1,4 @@
+check	n	value	p
+forward_composite_with_up_success	33	-0.5848400007051204	0.0003509944600513
+pred_EC_lite_directed_lagged_dlPFC_IFJ_L_to_vmPFC_control_value_ec_up_with_up_success	33	-0.5625731587476426	0.0006548575576532
+forward_composite_vs_repository_selected_score	33	0.9630666199045798	3.1883532577029984e-19

@@ -1,0 +1,11 @@
+Analysis	Estimate	CR2 SE	Satterthwaite df	CR2 p	Wild-cluster p	Interpretation
+Standardized rating: up versus passive	0.3402	0.0766	31.99	< 0.001	< 0.001	Instruction-consistent increase retained
+Standardized rating: down versus passive	-0.2885	0.0702	32.00	< 0.001	< 0.0001	Instruction-consistent decrease retained
+Raw rating: up versus passive	15.3209	4.2866	31.99	0.0011	< 0.001	Instruction-consistent increase retained
+Raw rating: down versus passive	-13.1406	3.5280	32.00	< 0.001	< 0.001	Instruction-consistent decrease retained
+Mean direction-corrected success	0.3142	0.0551	32.00	< 0.001	< 0.001	Positive mean success retained
+Up-regulation success	0.3334	0.0736	32.00	< 0.001	< 0.001	Positive up-regulation success retained
+Down-regulation success	0.2949	0.0676	32.00	< 0.001	< 0.001	Positive down-regulation success retained
+Up-minus-down success asymmetry	0.0423	0.0885	30.88	0.6357	0.6318	No reliable direction asymmetry
+Passive run-position slope	-0.0266	0.0116	32.00	0.0287	0.0306	Small negative passive trend
+Direction-by-expected-pain interaction	-0.1166	0.0684	31.15	0.0983	0.0968	Not reliable under finite-cluster inference

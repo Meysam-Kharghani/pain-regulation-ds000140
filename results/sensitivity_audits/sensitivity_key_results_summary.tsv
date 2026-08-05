@@ -17,3 +17,9 @@ coupling_null	Shared-source permutation null	-0.545718907902466	-0.3408238586747
 coupling_null	Nonzero circular-shift null	-0.545718907902466	-0.27144304690845006	0.3886054970926244	0.0013997200559888023		5000	Conditional on selected pathway
 dcm	Run-separated DCM family group-average Up-minus-passive	0 of 6 models retained					1728	No stable family-wide effect
 dcm	Run-separated DCM family group-average Down-minus-passive	0 of 6 models retained					1728	No stable family-wide effect
+behavior_finite_cluster	Standardized up-versus-passive CR2 sensitivity	0.3402			0.00010		3201	Primary instruction effect retained with 33 clusters
+behavior_finite_cluster	Standardized down-versus-passive CR2 sensitivity	-0.2885			0.00026		3201	Primary instruction effect retained with 33 clusters
+behavior_finite_cluster	Direction-by-expected-pain wild-cluster sensitivity	-0.1166			0.0968		660	Interaction not reliable under finite-cluster inference
+coupling_ar1	AR(1) forward composite versus up-regulation success	-0.58484			0.000351		33	Association retained after AR(1) prewhitening
+coupling_ar1_null	AR(1) shared-source permutation null	-0.58484	-0.3405461810881943	0.3317128151364209	0.0007998400319936		5000	Conditional on selected pathway
+coupling_ar1_null	AR(1) nonzero circular-shift null	-0.58484	-0.2658219889471379	0.4022229954127824	0.0013997200559888		5000	Conditional on selected pathway

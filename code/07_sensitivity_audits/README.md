@@ -4,13 +4,19 @@ This directory contains analyses that evaluate robustness and define the
 inferential boundaries of the reported results without changing their original
 status.
 
+## Behavioral finite-cluster inference
+
+- `run_behavior_small_sample_inference.R` evaluates ten behavioral models with CR2/Satterthwaite inference and null-imposed Rademacher wild-cluster-bootstrap p values.
+
 ## State-dependence and attenuation
 
 - `run_state_dependence_sensitivity_controls.py` evaluates alternative outcome definitions, cross-fitting, trimming, and stratified analyses.
 - `run_state_dependence_coupling_null_controls.py` evaluates bounded-scale and change-score coupling null models.
 - `run_down_regulation_attenuation_robustness.py` evaluates ROI and NPS attenuation across motion-sensitivity analysis sets.
 
-## Connectivity and DCM
+## Temporal-noise sensitivity, connectivity, and DCM
+
+- `run_ar1_prewhitening_sensitivity.py` re-estimates trialwise ROI or NPS quantities with run-specific AR(1) temporal-noise models.
 
 - `run_matched_coupling_controls.py` reproduces the standardized dlPFC/IFJ-to-vmPFC/mOFC composite and computes matched direction, lag, shuffle, circular-shift, and bootstrap controls.
 

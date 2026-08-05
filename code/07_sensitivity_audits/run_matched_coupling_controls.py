@@ -53,6 +53,21 @@ def read_table(path: Path, nrows=None):
     raise ValueError(f"Unsupported table: {path}")
 
 
+def portable_path(path: Path, project: Path) -> str:
+    """Return a repository- or dataset-relative path for public metadata."""
+    resolved = Path(path).expanduser().resolve()
+    project_root = Path(project).expanduser().resolve()
+    try:
+        return resolved.relative_to(project_root).as_posix()
+    except ValueError:
+        pass
+    parts = resolved.parts
+    if "derivatives" in parts:
+        index = parts.index("derivatives")
+        return Path(*parts[index:]).as_posix()
+    return resolved.name
+
+
 def canonical_subject(value):
     s = str(value)
     m = re.search(r"sub[-_]?(\d+)", s, flags=re.I)
@@ -1069,8 +1084,8 @@ def main():
     write_participant_source_data_and_scatter(args.outdir, merged)
 
     pd.DataFrame([{
-        "trialwise_table": str(args.trialwise_table),
-        "matrix_table": str(matrix_path),
+        "trialwise_table": portable_path(args.trialwise_table, args.project),
+        "matrix_table": portable_path(matrix_path, args.project),
         "source_col": source,
         "vmpfc_col": vmpfc,
         "mofc_col": mofc,
@@ -1106,6 +1121,7 @@ def main():
         "n_shuffle": args.n_shuffle,
         "n_circular_shift": args.n_circular_shift,
         "n_bootstrap": args.n_bootstrap,
+        "minimum_reproduction_r": args.minimum_reproduction_r,
         "target_dependency_note": (
             "vmPFC, mOFC, and vmPFC/mOFC are overlapping/nested masks; "
             "the score is a three-coefficient composite, not three "

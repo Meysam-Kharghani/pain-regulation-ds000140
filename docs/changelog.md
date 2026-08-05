@@ -1,5 +1,11 @@
 # Change log
 
+## 2026-08-04
+
+- Added CR2/Satterthwaite and wild-cluster-bootstrap sensitivity for behavioral models.
+- Added AR(1)-prewhitened trialwise ROI estimates and repeated matched coupling controls.
+- Added portable machine-readable result tables and reporting-source tables S7a and S7b.
+
 ## 1.0.0 — 2026-08-02
 
 - Added exact reporting figures and machine-readable figure/table source data.

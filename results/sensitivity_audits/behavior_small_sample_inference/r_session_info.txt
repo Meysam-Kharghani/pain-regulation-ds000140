@@ -1,0 +1,34 @@
+Master input: results/behavior/trial_table_order_carryover.tsv.gz
+Latents input: results/behavior/trialwise_behavior_latents.tsv
+Bootstrap replications: 9999
+Seed: 20260803
+
+R version 4.3.3 (2024-02-29)
+Platform: x86_64-pc-linux-gnu (64-bit)
+Running under: Linux (64-bit)
+
+Matrix products: default
+BLAS: system BLAS
+LAPACK: system LAPACK
+
+locale:
+ [1] LC_CTYPE=en_US.UTF-8    LC_NUMERIC=C            LC_TIME=en_US.UTF-8
+ [4] LC_COLLATE=en_US.UTF-8  LC_MONETARY=<system>       LC_MESSAGES=en_US.UTF-8
+ [7] LC_PAPER=<system>          LC_NAME=C               LC_ADDRESS=C
+[10] LC_TELEPHONE=C          LC_MEASUREMENT=<system>    LC_IDENTIFICATION=C
+
+time zone: system default
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats     graphics  grDevices utils     datasets  methods   base
+
+loaded via a namespace (and not attached):
+ [1] dqrng_0.4.1             clubSandwich_0.7.0      Formula_1.2-6
+ [4] collapse_2.1.7          gtools_3.9.5            Matrix_1.6-5
+ [7] lattice_0.22-5          stringmagic_1.2.0       zoo_1.9-0
+[10] parallel_4.3.3          fwildclusterboot_0.14.3 JuliaConnectoR_1.1.5
+[13] generics_0.1.4          summclust_0.7.0         cli_3.6.6
+[16] dreamerr_1.5.0          grid_4.3.3              sandwich_3.1-2
+[19] compiler_4.3.3          tools_4.3.3             Rcpp_1.1.2
+[22] rlang_1.3.0             MASS_7.3-60.0.1

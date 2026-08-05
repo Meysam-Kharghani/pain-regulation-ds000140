@@ -9,7 +9,7 @@ Analysis code, derived tables, and reporting assets for a secondary analysis of 
 **Source dataset:** [OpenNeuro ds000140](https://openneuro.org/datasets/ds000140)  
 **Original study:** Woo et al. (2015), *PLOS Biology*, [doi:10.1371/journal.pbio.1002036](https://doi.org/10.1371/journal.pbio.1002036)
 
-The evidence hierarchy is explicit. The strongest condition-level imaging result is down-minus-passive attenuation in bilateral S2/opercular and insular regions, accompanied by greater left dlPFC/IFJ activity. NPS regulation contrasts depend on the estimation path. Up-regulation success is associated with an exploratory, post-selection lagged left dlPFC/IFJ-to-vmPFC/mOFC composite after rating-period adjustment. Matched temporal controls and two conditional within-run null models characterize that association. Run-separated DCM is a model-dependent sensitivity analysis and did not independently validate the selected coupling mechanism.
+The evidence hierarchy is explicit. The strongest condition-level imaging result is down-minus-passive attenuation in bilateral S2/opercular and insular regions, accompanied by greater left dlPFC/IFJ activity. NPS regulation contrasts depend on the estimation path. Up-regulation success is associated with an exploratory, post-selection lagged left dlPFC/IFJ-to-vmPFC/mOFC composite after rating-period adjustment. Matched temporal controls, two conditional within-run null models, and an AR(1)-prewhitening sensitivity characterize that association. Run-separated DCM is a model-dependent sensitivity analysis and did not independently validate the selected coupling mechanism.
 
 ## Contents
 
@@ -29,7 +29,7 @@ results/
   glm/                         GLM inventories and group summaries
   roi_signatures/              ROI and signature results
   trialwise_connectivity/      Trialwise and pathway-level results
-  sensitivity_audits/          Robustness and matched-control outputs
+  sensitivity_audits/          Robustness, finite-cluster, and temporal-noise outputs
   reporting/                   Figures and exact machine-readable source data
 
 docs/

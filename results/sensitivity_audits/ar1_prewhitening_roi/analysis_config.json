@@ -1,0 +1,23 @@
+{
+  "mode": "roi",
+  "inventory": "derivatives/firstlevel_GLM_NATURE_v1/tables/first_level_run_inventory.tsv",
+  "roi_definitions": "derivatives/roi_masks_NATURE_v3/roi_definitions.tsv",
+  "behavior_trials": "results/behavior/behavior_trials_master_clean.tsv.gz",
+  "output": "derivatives/trialwise_roi_connectivity_ar1",
+  "runs": [
+    3,
+    7
+  ],
+  "temporal_noise_model": "nilearn run_glm AR(1)",
+  "ar1_bins": 100,
+  "rating_nuisance_included": true,
+  "n_runs": 66,
+  "n_trials": 660,
+  "n_rois": 32,
+  "software": {
+    "python": "3.11.14",
+    "nilearn": "0.13.0",
+    "numpy": "2.3.5",
+    "pandas": "2.3.3"
+  }
+}

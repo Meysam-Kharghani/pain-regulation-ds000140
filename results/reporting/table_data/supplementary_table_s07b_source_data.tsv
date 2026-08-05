@@ -1,0 +1,11 @@
+Analysis	Estimate	95% CI or null interval	p	FDR q or diagnostic
+AR(1) forward composite	r = -0.5848		< 0.001	n = 33
+AR(1) reverse-direction composite	r = 0.2419		0.175	n = 33
+AR(1) synchronous zero-lag composite	r = 0.0970		0.5913	n = 33
+AR(1) time-reversed composite	r = 0.0099		0.9563	n = 33
+AR(1) forward score versus primary forward score	r = 0.9631		< 0.001	Score correspondence; n = 33
+AR(1) shared-source permutation null	Observed r = -0.5848	[-0.3405, 0.3317]	0.0008	5,000 iterations; conditional on selected pathway
+AR(1) nonzero circular-shift null	Observed r = -0.5848	[-0.2658, 0.4022]	0.0014	5,000 iterations; conditional on selected pathway
+AR(1) forward minus reverse	Delta r = -0.8267	[-1.2206, -0.3239]	0.0024	q = 0.0072
+AR(1) forward minus synchronous	Delta r = -0.6818	[-1.1304, -0.1138]	0.0204	q = 0.0208
+AR(1) forward minus time-reversed	Delta r = -0.5948	[-1.0192, -0.0919]	0.0208	q = 0.0208
