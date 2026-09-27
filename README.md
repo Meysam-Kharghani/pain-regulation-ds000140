@@ -2,11 +2,12 @@
 
 [![Repository validation](https://github.com/Meysam-Kharghani/pain-regulation-ds000140/actions/workflows/validate.yml/badge.svg)](https://github.com/Meysam-Kharghani/pain-regulation-ds000140/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21752985.svg)](https://doi.org/10.5281/zenodo.21752985)
+Archived v1.0.0 DOI: https://doi.org/10.5281/zenodo.21752985  
+Latest release candidate: v1.1.0 (Zenodo DOI to be minted after GitHub release)
 
 Analysis code, derived tables, and reporting assets for a secondary analysis of the public OpenNeuro ds000140 heat-pain regulation dataset.
 
-**Release:** v1.0.0 (2026-08-02)  
+**Release:** v1.1.0 (2026-09-27)  
 **Source dataset:** [OpenNeuro ds000140](https://openneuro.org/datasets/ds000140)  
 **Original study:** Woo et al. (2015), *PLOS Biology*, [doi:10.1371/journal.pbio.1002036](https://doi.org/10.1371/journal.pbio.1002036)
 
