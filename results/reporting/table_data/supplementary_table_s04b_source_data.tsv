@@ -1,3 +1,3 @@
-ROI	Nearest passive: estimate / p / q	Adjacent mean: estimate / p / q	Following passive: estimate / p / q
-Left S2/operculum	−314.7 / 0.009 / 0.224	−255.8 / 0.013 / 0.268	−184.1 / 0.114 / 0.829
-Right posterior insula	−284.2 / 0.021 / 0.224	−238.5 / 0.017 / 0.268	−185.7 / 0.130 / 0.829
+ROI	Nearest passive: estimate [95% CI] / p / q / n	Adjacent mean: estimate [95% CI] / p / q / n	Following passive: estimate [95% CI] / p / q / n
+Left S2/operculum	−314.7 [−546.2, −83.1] / 0.009 / 0.224 / 32	−255.8 [−452.8, −58.8] / 0.013 / 0.268 / 33	−184.1 [−415.0, 46.9] / 0.114 / 0.829 / 32
+Right posterior insula	−284.2 [−522.2, −46.2] / 0.021 / 0.224 / 32	−238.5 [−430.9, −46.1] / 0.017 / 0.268 / 33	−185.7 [−428.9, 57.5] / 0.130 / 0.829 / 32

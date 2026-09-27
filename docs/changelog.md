@@ -1,3 +1,13 @@
+# Changelog
+
+## 1.1.0 - 2026-09-27
+
+- Added transition-level coupling sensitivity across all 297 up-regulation transitions with clustered, permutation, bootstrap, leave-one-participant-out, and mixed-model diagnostics.
+- Updated reporting figures and table source data to the audited reporting snapshot.
+- Updated the final reporting PNG assets and added the Figure 4 transition-level source table.
+- Added the journal-ready Supplementary Data S1 workbook containing the complete 256-test run-position-matched ROI sensitivity results.
+- Preserved the v1.0.0 archive as the prior immutable release.
+
 # Change log
 
 ## 2026-08-04

@@ -20,6 +20,7 @@ Figure 2B null summary	figure_data/figure_02_panel_b_null_summary.tsv
 Figure 3A	figure_data/figure_03_panel_a_source_data.tsv
 Figure 3B	figure_data/figure_03_panel_b_source_data.tsv
 Figure 4	figure_data/figure_04_source_data.tsv
+Figure 4D transition-level sensitivity	figure_data/figure_04_panel_d_transition_source_data.tsv
 Figure 4B shared-source permutation null	figure_data/figure_04_panel_b_shared_source_null.tsv
 Figure 4B nonzero circular-shift null	figure_data/figure_04_panel_b_circular_shift_null.tsv
 Supplementary Figure 1A C	figure_data/supplementary_figure_01_panels_a_c_source_data.tsv
@@ -30,3 +31,5 @@ Supplementary Figure 4	figure_data/supplementary_figure_04_source_data.tsv
 Supplementary Figure 5A	figure_data/supplementary_figure_05_panel_a_source_data.tsv
 Supplementary Figure 5B	figure_data/supplementary_figure_05_panel_b_source_data.tsv
 Supplementary Figure 6	figure_data/supplementary_figure_06_source_data.tsv
+Supplementary Data S1	supplementary_data_s1.xlsx
+Supplementary Data S1 authoritative TSV	../sensitivity_audits/neural_matched_passive_roi/neural_matched_passive_summary.tsv

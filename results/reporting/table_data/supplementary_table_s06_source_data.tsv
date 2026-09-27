@@ -1,10 +1,10 @@
 Analysis	Estimate	95% CI / null interval	p or Pp	Correction or diagnostic
 Selected exploratory forward composite	r = −0.546	[−0.764, −0.270]	p = 0.0010	Archived screening q = 0.0127
-Spearman characterization	ρ = −0.549	—	p < 0.001	Post-selection
+Spearman characterization	ρ = −0.549	[−0.751, −0.253]	p < 0.001	Post-selection; approximate Fisher-z CI; n = 33
 Covariate-adjusted forward model	β = −0.464	[−0.681, −0.194]	p = 0.0023	Label-permutation p = 0.0007; all leave-one-out estimates negative
-Reverse-direction composite	r = 0.265	—	p = 0.136	Matched control
-Synchronous zero-lag composite	r = 0.064	—	p = 0.725	Matched control
-Time-reversed composite	r = −0.016	—	p = 0.930	Matched control
+Reverse-direction composite	r = 0.265	[−0.086, 0.558]	p = 0.136	Matched control; Fisher-z CI; n = 33
+Synchronous zero-lag composite	r = 0.064	[−0.286, 0.398]	p = 0.725	Matched control; Fisher-z CI; n = 33
+Time-reversed composite	r = −0.016	[−0.357, 0.329]	p = 0.930	Matched control; Fisher-z CI; n = 33
 Shared-source permutation null	Observed r = −0.546	[−0.341, 0.336]	p = 0.0014	5,000 iterations; conditional on selected pathway
 Nonzero circular-shift null	Observed r = −0.546	[−0.271, 0.389]	p = 0.0014	5,000 iterations; preserved within-run source ordering
 Forward - reverse	Δr = −0.811	[−1.178, −0.320]	p = 0.0022	FDR q = 0.0066

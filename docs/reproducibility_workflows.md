@@ -83,6 +83,22 @@ python code/07_sensitivity_audits/run_matched_coupling_controls.py \
 The distributed result summary and null distributions are in `results/sensitivity_audits/matched_coupling_controls/` and `results/reporting/`.
 
 
+## Transition-level coupling sensitivity
+
+The direct transition-level sensitivity uses the archived rating-adjusted AR(1)-prewhitened trialwise ROI table and the cleaned behavioral table:
+
+```bash
+python code/07_sensitivity_audits/run_transition_level_coupling_sensitivity.py \
+  --trialwise results/sensitivity_audits/ar1_prewhitening_roi/trialwise_roi_lss_wide.tsv.gz \
+  --behavior results/behavior/behavior_trials_master_clean.tsv.gz \
+  --outdir results/sensitivity_audits/transition_level_coupling_sensitivity \
+  --n-perm 10000 \
+  --n-boot 10000
+```
+
+The distributed outputs model all 297 up-regulation transitions and include clustered models, participant-label permutation, Freedman-Lane permutation, participant-cluster bootstrap, leave-one-participant-out estimates, and mixed-model diagnostics. This analysis remains conditional on the selected pathway and does not repeat the original screening family.
+
+
 ## AR(1)-prewhitened ROI and coupling sensitivity
 
 ```bash

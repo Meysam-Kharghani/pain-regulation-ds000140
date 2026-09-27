@@ -1,0 +1,18 @@
+{
+  "input_trialwise": "results/sensitivity_audits/ar1_prewhitening_roi/trialwise_roi_lss_wide.tsv.gz",
+  "input_behavior": "results/trialwise_connectivity/screening_predictor_outcome_matrix.tsv",
+  "n_subjects": 33,
+  "n_up_trials": 330,
+  "n_transitions": 297,
+  "source": "roi_reg_dlPFC_IFJ_L",
+  "targets": [
+    "roi_reg_vmPFC",
+    "roi_reg_mOFC",
+    "roi_reg_vmPFC_mOFC"
+  ],
+  "n_label_permutations": 10000,
+  "n_freedman_lane_permutations": 10000,
+  "n_cluster_bootstrap": 10000,
+  "selection_scope": "conditional post-selection sensitivity; does not repeat 116-correlation screen",
+  "note": "Only AR(1)-prewhitened rating-adjusted transition-level estimates are archived in the repository; the primary non-prewhitened participant-level result remains reported separately."
+}

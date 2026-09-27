@@ -9,6 +9,7 @@
 | Do matched passive runs alter regional inferences? | `code/07_sensitivity_audits/run_neural_matched_passive_roi.py` | `results/sensitivity_audits/neural_matched_passive_roi/` |
 | Is NPS inference consistent across contrast constructions and participants? | `code/07_sensitivity_audits/run_nps_contrast_consistency_audit.py`; `run_nps_participant_influence_audit.py` | `results/sensitivity_audits/nps_contrast_consistency/`; `nps_participant_influence/` |
 | Does the selected coupling survive matched temporal and conditional null controls? | `code/07_sensitivity_audits/run_matched_coupling_controls.py` | `results/sensitivity_audits/matched_coupling_controls/` |
+| Does the selected coupling survive direct transition-level clustered inference? | `code/07_sensitivity_audits/run_transition_level_coupling_sensitivity.py` | `results/sensitivity_audits/transition_level_coupling_sensitivity/` |
 | Does run-separated DCM independently support the coupling interpretation? | `code/06_dcm/` | `results/reporting/table_data/supplementary_table_s06_source_data.tsv` |
 
 All coupling follow-ups are conditional on the selected pathway and do not repeat the initial screening family.
