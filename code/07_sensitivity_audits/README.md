@@ -36,3 +36,8 @@ and is interpreted as a model-dependent sensitivity analysis.
 
 Executable commands and verification details are provided in
 `docs/reproducibility_workflows.md`.
+
+
+### Transition-level coupling sensitivity
+
+`run_transition_level_coupling_sensitivity.py` models all 297 up-regulation transitions with participant-clustered inference, label-permutation, Freedman-Lane permutation, participant-cluster bootstrap, leave-one-participant-out analysis, and mixed-model diagnostics. Outputs are stored in `results/sensitivity_audits/transition_level_coupling_sensitivity/`.
