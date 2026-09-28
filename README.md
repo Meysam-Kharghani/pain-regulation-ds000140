@@ -3,11 +3,11 @@
 [![Repository validation](https://github.com/Meysam-Kharghani/pain-regulation-ds000140/actions/workflows/validate.yml/badge.svg)](https://github.com/Meysam-Kharghani/pain-regulation-ds000140/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 Archived v1.0.0 DOI: https://doi.org/10.5281/zenodo.21752985  
-Latest release candidate: v1.1.0 (Zenodo DOI to be minted after GitHub release)
+v1.1.0 DOI: https://doi.org/10.5281/zenodo.23010861
 
 Analysis code, derived tables, and reporting assets for a secondary analysis of the public OpenNeuro ds000140 heat-pain regulation dataset.
 
-**Release:** v1.1.0 (2026-09-27)  
+**Release:** v1.1.0 (2026-09-28)  
 **Source dataset:** [OpenNeuro ds000140](https://openneuro.org/datasets/ds000140)  
 **Original study:** Woo et al. (2015), *PLOS Biology*, [doi:10.1371/journal.pbio.1002036](https://doi.org/10.1371/journal.pbio.1002036)
 
@@ -92,7 +92,7 @@ Raw MRI data, fMRIPrep derivatives, large image files, MATLAB model objects, thi
 
 ## Citation
 
-Machine-readable citation metadata are available in [`CITATION.cff`](CITATION.cff). Cite this code collection and the original ds000140 dataset publication when reusing the materials.
+Machine-readable citation metadata are available in [`CITATION.cff`](CITATION.cff). The immutable archive for v1.1.0 is https://doi.org/10.5281/zenodo.23010861. Cite this code collection and the original ds000140 dataset publication when reusing the materials.
 
 ## Authors
 

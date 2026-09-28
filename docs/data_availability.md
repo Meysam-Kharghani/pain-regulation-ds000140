@@ -15,9 +15,9 @@ The repository includes:
 - trialwise connectivity and pathway screening outputs;
 - robustness and null-model outputs;
 - exact figure and table source data;
-- publication-quality PNG and vector PDF figures.
+- publication-quality 300-dpi PNG figures.
 
-The authoritative values used in reported figures and tables are under `results/reporting/`.
+The authoritative values used in reported figures and tables are under `results/reporting/`. The immutable archive for repository version 1.1.0 is https://doi.org/10.5281/zenodo.23010861.
 
 ## External resources
 

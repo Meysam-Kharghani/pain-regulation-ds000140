@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.1.0 - 2026-09-27
+## 1.1.0 - 2026-09-28
 
 - Added transition-level coupling sensitivity across all 297 up-regulation transitions with clustered, permutation, bootstrap, leave-one-participant-out, and mixed-model diagnostics.
 - Updated reporting figures and table source data to the audited reporting snapshot.
